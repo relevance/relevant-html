@@ -5,12 +5,12 @@
 
 Gem::Specification.new do |s|
   s.name = %q{relevant-html}
-  s.version = "0.0.1"
+  s.version = "0.0.2"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Rob Sanheim"]
   s.date = %q{2010-09-27}
-  s.description = %q{}
+  s.description = %q{Display embeddable snippets of anythings in your Relevant radiator.}
   s.email = %q{opensource@thinkrelevance.com}
   s.extra_rdoc_files = [
     "README.md"
@@ -28,7 +28,7 @@ Gem::Specification.new do |s|
   s.rdoc_options = ["--charset=UTF-8"]
   s.require_paths = ["lib"]
   s.rubygems_version = %q{1.3.7}
-  s.summary = %q{Html widget for Relevant}
+  s.summary = %q{Simple html widget for Relevant}
   s.test_files = [
     "spec/relevant/html_spec.rb",
      "spec/spec_helper.rb"
