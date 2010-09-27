@@ -2,7 +2,7 @@ require "relevant/widget"
 
 module Relevant
   class Html
-    Version = "0.0.1"
+    Version = "0.0.2"
     include Relevant::Widget
     
     available_options :html => :string
@@ -10,10 +10,7 @@ module Relevant
     refresh_every 1.minute
     
     template_format :erb
-    template %q[
-<%= options[:html] %>
-]
-
+    template "<%= options[:html] %>"
   end
 end
 

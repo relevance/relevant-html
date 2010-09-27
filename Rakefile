@@ -8,8 +8,8 @@ begin
   Jeweler::Tasks.new do |gemspec|
     gemspec.version = Relevant::Html::Version
     gemspec.name = "relevant-html"
-    gemspec.summary = "Html widget for Relevant"
-    gemspec.description = ""
+    gemspec.summary = "Simple html widget for Relevant"
+    gemspec.description = "Display embeddable snippets of anythings in your Relevant radiator."
     gemspec.email = "opensource@thinkrelevance.com"
     gemspec.homepage = "http://github.com/relevance/relevant-html"
     gemspec.authors = ["Rob Sanheim"]
