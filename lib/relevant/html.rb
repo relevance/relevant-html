@@ -5,7 +5,7 @@ module Relevant
     Version = "0.0.1"
     include Relevant::Widget
     
-    available_options :format => :string
+    available_options :html => :string
     
     refresh_every 1.minute
     
